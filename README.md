@@ -1,3 +1,5 @@
+<img width="1194" height="524" alt="image" src="https://github.com/user-attachments/assets/a0efec03-4408-449c-a3bf-e14c6f00171c" />
+
 # Creative Workstation Readiness Checker
 
 Creative Workstation Readiness Checker is a small IT support prototype for evaluating whether creative workstations are ready to hand off to designers, editors, motion artists, and 3D users.
@@ -58,29 +60,6 @@ There is no database, login, cloud storage, or upload service yet. The local rep
 - Tailwind CSS
 - Python standard library diagnostics script
 - Static JSON report files
-
-## Project Structure
-
-```text
-app/
-  page.tsx
-  layout.tsx
-  workstations/[id]/page.tsx
-components/
-  AppShell.tsx
-  FleetOverview.tsx
-  WorkstationTable.tsx
-  report-detail.tsx
-data/
-  report.json
-  reports/*.json
-diagnostics/
-  diagnostics.py
-lib/
-  report.ts
-types/
-  report.ts
-```
 
 ## Setup
 
