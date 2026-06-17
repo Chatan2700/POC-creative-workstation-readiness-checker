@@ -51,6 +51,11 @@ The Next.js dashboard reads the report collection from `data/reports/` and rende
 - Diagnostic pipeline summary
 - Collapsible raw JSON report previews
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/787302ef-f0c6-4475-828b-df1909347449" width="520" alt="Dashboard Fleet Overview" />
+  <img src="https://github.com/user-attachments/assets/9b833fdf-7b25-455d-a49d-21769a34be88" width="338" alt="Workstation Detail Page" />
+</div>
+
 There is no database, login, cloud storage, or upload service yet. The local report folder intentionally stands in for the storage layer that would later be replaced by S3, Azure Blob, Supabase, Postgres, or another backend.
 
 ## Tech Stack
