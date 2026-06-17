@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: #0e0e10;
+  --surface: #141416;
+  --surface-hover: #1a1a1d;
+  --text-primary: #f4f4f5;
+  --text-secondary: #8a8a91;
+  --border: rgba(255, 255, 255, 0.06);
+  --accent: #d8b77a;
+  --ready: #79d49b;
+  --attention: #e6c46f;
+  --blocked: #e27d7d;
+  background: var(--background);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text-primary);
+}
+
+::selection {
+  background: rgba(160, 180, 255, 0.28);
+}
+
+.halftone {
+  background-image: radial-gradient(circle, rgba(244, 244, 245, 0.8) 1px, transparent 1.8px);
+  background-size: 11px 11px;
+  opacity: 0.035;
+  mask-image: radial-gradient(circle, black 0%, transparent 72%);
+}
+
+.paper-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  transition:
+    transform 200ms ease,
+    border-color 200ms ease,
+    background-color 200ms ease;
+}
+
+.paper-card:hover {
+  background: var(--surface-hover);
+  border-color: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+.caption {
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

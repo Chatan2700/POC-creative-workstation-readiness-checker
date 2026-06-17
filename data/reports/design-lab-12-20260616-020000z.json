@@ -1,0 +1,31 @@
+{
+  "id": "design-lab-12-20260616-020000z",
+  "hostname": "DESIGN-LAB-12",
+  "os": "macOS 15.5",
+  "cpu": "Apple M3 Pro",
+  "ramGb": 18,
+  "diskTotalGb": 512,
+  "diskFreeGb": 44,
+  "networkStatus": "Connected",
+  "installedTools": [
+    "Adobe Photoshop",
+    "Figma"
+  ],
+  "missingTools": [
+    "Adobe Premiere Pro",
+    "Adobe After Effects",
+    "Blender",
+    "Cinema 4D"
+  ],
+  "readinessScore": 70,
+  "status": "Needs attention",
+  "recommendations": [
+    "Install Adobe Premiere Pro for video editing workflows.",
+    "Install Adobe After Effects for motion graphics workflows.",
+    "Install Blender for 3D modeling and rendering workflows.",
+    "Upgrade memory to at least 32 GB for Adobe, 3D, and video workflows.",
+    "Maintain at least 20% free disk space for media-heavy projects.",
+    "Confirm Adobe Creative Cloud license assignment before deployment."
+  ],
+  "lastChecked": "2026-06-16T02:00:00Z"
+}

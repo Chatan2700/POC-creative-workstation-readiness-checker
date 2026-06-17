@@ -1,0 +1,29 @@
+{
+  "id": "chatan-20260616-232231z",
+  "hostname": "Chatan",
+  "os": "Windows 11 Core",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "ramGb": 32,
+  "diskTotalGb": 952,
+  "diskFreeGb": 363,
+  "networkStatus": "Disconnected",
+  "installedTools": [],
+  "missingTools": [
+    "Adobe Photoshop",
+    "Adobe Premiere Pro",
+    "Adobe After Effects",
+    "Figma",
+    "Blender",
+    "Cinema 4D"
+  ],
+  "readinessScore": 62,
+  "status": "Needs attention",
+  "recommendations": [
+    "Install Adobe Photoshop for raster image and compositing workflows.",
+    "Install Adobe Premiere Pro for video editing workflows.",
+    "Install Adobe After Effects for motion graphics workflows.",
+    "Restore internet connectivity before software activation or cloud collaboration.",
+    "Confirm Adobe Creative Cloud license assignment before deployment."
+  ],
+  "lastChecked": "2026-06-16T23:22:31Z"
+}

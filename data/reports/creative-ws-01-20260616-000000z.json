@@ -1,0 +1,28 @@
+{
+  "id": "creative-ws-01-20260616-000000z",
+  "hostname": "CREATIVE-WS-01",
+  "os": "Windows 11 Pro",
+  "cpu": "Intel Core i7",
+  "ramGb": 32,
+  "diskTotalGb": 1000,
+  "diskFreeGb": 420,
+  "networkStatus": "Connected",
+  "installedTools": [
+    "Adobe Photoshop",
+    "Adobe Premiere Pro",
+    "Figma",
+    "Blender"
+  ],
+  "missingTools": [
+    "Adobe After Effects",
+    "Cinema 4D"
+  ],
+  "readinessScore": 86,
+  "status": "Ready with minor recommendations",
+  "recommendations": [
+    "Install Adobe After Effects for motion graphics workflows.",
+    "Confirm Adobe Creative Cloud license assignment before deployment.",
+    "Maintain at least 20% free disk space for media-heavy projects."
+  ],
+  "lastChecked": "2026-06-16T00:00:00Z"
+}
